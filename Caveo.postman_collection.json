@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "2fae3c36-3d14-426e-950c-710d74d6922b",
+		"name": "Caveo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12583000",
+		"_collection_link": "https://lunar-shuttle-805120.postman.co/workspace/New-Team-Workspace~eaa7c469-9655-40d3-97d5-4f43ab10b4e8/collection/12583000-2fae3c36-3d14-426e-950c-710d74d6922b?action=share&source=collection_link&creator=12583000"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"xandeeknd@gmail.com\",\r\n    \"password\": \"Caveo_test123\",\r\n    \"clientId\": \"2svlm2e957q6tfmi37plddoln5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cognito-idp.us-east-2.amazonaws.com/",
+					"protocol": "https",
+					"host": [
+						"cognito-idp",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://cognito-idp.us-east-1.amazonaws.com/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \r\n        \"USERNAME\": \"xandeeknd@gmail.com\",\r\n        \"PASSWORD\": \"Caveo_test123\"\r\n   \r\n    \"AuthFlow\": \"USER_PASSWORD_AUTH\",\r\n    \"ClientId\": \"2svlm2e957q6tfmi37plddoln5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cognito-idp.us-east-1.amazonaws.com/",
+					"protocol": "https",
+					"host": [
+						"cognito-idp",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						""
+					]
+				},
+				"description": "Generated from cURL: curl -X POST https://cognito-idp.us-east-1.amazonaws.com/ \\\r\n  -H \"Content-Type: application/x-www-form-urlencoded\" \\\r\n  -d \"AuthFlow=USER_PASSWORD_AUTH\" \\\r\n  -d \"ClientId=2svlm2e957q6tfmi37plddoln5\" \\\r\n  -d \"AuthParameters.USERNAME=email@example.com\" \\\r\n  -d \"AuthParameters.PASSWORD=yourpassword\"\r\n"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	]
+}

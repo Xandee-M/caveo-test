@@ -15,6 +15,10 @@ services:
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_NAME=${DB_NAME}
+      - USER_POOL_ID=${USER_POOL_ID}
+      - REGION=${REGION}
+      - CLIENT_ID=${CLIENT_ID}
+      - CLIENT_SECRET=${CLIENT_SECRET}
     volumes:
       - ./app:/usr/src/app:ro 
 
