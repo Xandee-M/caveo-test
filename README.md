@@ -44,14 +44,14 @@ Siga as instruções abaixo para configurar o projeto na sua máquina:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/caveo-test.git
+   git clone https://github.com/Xandee-M/caveo-test.git
    cd caveo-test
    ```
 
 2. Instale as dependências:
 
    ```bash
-   git clone https://github.com/seu-usuario/caveo-test.git
+   git clone https://github.com/Xandee-M/caveo-test.git
    cd caveo-test
    ```
 
@@ -107,7 +107,7 @@ Para facilitar o teste da API, incluímos uma coleção do Postman que contém e
 
 ### Como importar a coleção no Postman:
 
-1. Baixe o arquivo da coleção [Caveo Test - Coleção do Postman](Caveo.postman_collection).
+1. Baixe o arquivo da coleção [Caveo Test - Coleção do Postman](https://github.com/Xandee-M/caveo-test/blob/master/Caveo.postman_collection.json).
 2. Abra o Postman.
 3. Clique em **Importar** na parte superior esquerda.
 4. Selecione o arquivo JSON da coleção baixado.
